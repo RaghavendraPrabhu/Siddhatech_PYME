@@ -89,7 +89,7 @@ public class testCore {
 	//public static String From = "androidrobotsiddhatech@yahoo.com";
 	//public static String Password = "2016sidd";
 	
-	public static String From = "androidrobotsiddhatech2017";
+	public static String From = "androidrobotsiddhatech2017@yahoo.com";
 	public static String Password = "2017Raghu";
 	
 	private static Process process;

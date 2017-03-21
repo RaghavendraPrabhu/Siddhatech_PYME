@@ -25,8 +25,8 @@ import dd_testCore.testCore;
 public class SendAlertMailTest extends testCore {
 
 	
-	public static String TO = "raghavendra_uday@yahoo.com";
-	public static String CC = "iloveraghu2008@gmail.com";
+	//public static String TO = "raghavendra_uday@yahoo.com";
+	//public static String CC = "iloveraghu2008@gmail.com";
 	
 
 	public static void SendDetail(String from, String pass, String TO, String CC, String subject, String body) {
@@ -42,10 +42,9 @@ public class SendAlertMailTest extends testCore {
 		props.put("mail.smtp.password", pass);	
 		props.put("mail.debug", "false");
 	
-		//props.put("mail.smtp.port", "587");
-		props.put("mail.smtp.port", "465");
-		//props.put("mail.smtp.port", "25");
-		
+		props.put("mail.smtp.port", "587");
+		//props.put("mail.smtp.port", "465");
+		//props.put("mail.smtp.port", "25");		
 		props.put("mail.smtp.auth", "true");
 		
 

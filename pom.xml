@@ -117,6 +117,11 @@
 			<version>1.4</version>
 		</dependency>	
 		<dependency>
+    		<groupId>javax.mail</groupId>
+   			 <artifactId>javax.mail-api</artifactId>
+    		<version>1.5.1</version>
+			</dependency>
+		<dependency>
 			<groupId>org.apache.archiva.redback.components.cache</groupId>
 			<artifactId>spring-cache-hashmap</artifactId>
 			<version>2.2</version>

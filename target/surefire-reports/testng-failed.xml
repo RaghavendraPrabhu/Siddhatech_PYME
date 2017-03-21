@@ -5,8 +5,12 @@
     <classes>
       <class name="dd_registration.Register">
         <methods>
+          <include name="QuitDriver"/>
+          <include name="setupBeforeSuite"/>
           <include name="ValidRegistration"/>
+          <include name="setupAfterSuite"/>
           <include name="init"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- dd_registration.Register -->
     </classes>
