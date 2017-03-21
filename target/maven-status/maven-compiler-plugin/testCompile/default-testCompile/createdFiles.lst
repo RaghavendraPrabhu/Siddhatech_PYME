@@ -1,0 +1,13 @@
+dd_registration\Register.class
+dd_testCore\testCore.class
+dd_util\Test.class
+dd_codigo\Codigoscenarios.class
+dd_util\PDF.class
+dd_util\SendAlertMailTest.class
+dd_util\Test2.class
+dd_pins\Confirmpinscenarios.class
+dd_util\TestUtil.class
+dd_pins\Createpinscenarios.class
+dd_registration\NewRegistration.class
+dd_util\NewExcel2DB.class
+dd_util\ZipDirectory.class

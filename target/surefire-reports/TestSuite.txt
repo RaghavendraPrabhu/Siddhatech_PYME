@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 30.848 sec <<< FAILURE! - in TestSuite
+init(dd_registration.Register)  Time elapsed: 29.7 sec  <<< FAILURE!
+java.lang.NullPointerException
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SMB_FrameWork">
+        
+<test name="SMB Regression Testing">		    
+		<classes> 				      
+		<class name="dd_registration.Register" /> 	
+<!-- 		<class name="dd_codigo.Codigoscenarios" /> 	
+	    <class name="dd_pins.Createpinscenarios" /> 
+	    <class name="dd_pins.Confirmpinscenarios" /> 
+	    <class name="dd_registration.NewRegistration" />  -->
+		</classes>		
+	</test>	   
+</suite>
