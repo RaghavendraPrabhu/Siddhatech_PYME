@@ -451,16 +451,19 @@ public class Codigoscenarios extends testCore {
 				image = logger.addScreenCapture(screenshot_Path);
 				
 				logger.log(LogStatus.INFO, "Codigo Screen: ", "Codigo Fail " + image);
-												
+				
+
+														
 				//SENDS ALERT MAIL ON FAIL
+				
+				System.out.println("Alert Mail Sending In Process !!");				
 				String Message = "<b>Error Alert : </b> Codigo Validation Fail." + "<br>"
 						+ "<b>Error Message Is : </b>" + driver.findElement(By.id(object.getProperty("ErrroWindowMesg"))).getText() + "<br>"
 						+ "Check The Error Stacktrace & Attached Error ScreenShot.</b><br><br>";
-				SendAlertMailTest.SendDetail(From, Password , TO, CC, "BPD Application Alert : Login Access Fail " + formattedDate, 
+				SendAlertMailTest.SendDetail(From, Password , TO, CC, "PYME Application Alert : Codigo Validation Fail " + formattedDate, 
 				Message + ExceptionUtils.getStackTrace(e));
-				System.out.println("Alert Send Via Mail For Codigo Validation Fail");
-				driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-				
+				System.out.println("Alert Mail Send For Codigo Validation Fail");
+				driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);				
 				System.out.println("Error Message " + driver.findElement(By.id(object.getProperty("ErrroWindowMesg"))).getText());
 				
 				driver.findElement(By.id(object.getProperty("Continuar"))).click();	

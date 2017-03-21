@@ -1188,14 +1188,14 @@ public class Register extends testCore {
 				
 				
 				//SENDS ALERT MAIL ON FAIL
-				System.out.println("Mail Sending In Process !!");
+				System.out.println("Alert Mail Sending In Process !!");
 				
 				String Message = "<b>Error Alert : </b> Registration Fail." + "<br>"
 						+ "<b>Error Message Is : </b>" + driver.findElement(By.id("android:id/message")).getText() + "<br>"
 						+ "Check The Error Stacktrace & Attached Error ScreenShot.</b><br><br>";
 				SendAlertMailTest.SendDetail(From, Password , TO, CC, "SMB Application Alert : Login Access Fail " + formattedDate, 
 				Message + ExceptionUtils.getStackTrace(e));
-				System.out.println("Alert Send Via Mail For Login Access Fail");
+				System.out.println("Alert Mail Send For Registration / Login Access Fail");
 				driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 				
 				
